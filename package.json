@@ -1,25 +1,25 @@
-
 {
     "name": "H4",
     "version": "1.0.0",
     "description": "",
-    "main": "server.js", 
-    "scripts": { 
-        "test": "echo \"Error: no test specified\" && exit 1", 
-        "start": "node server.js", 
-        "develop": "nodemon server.js" 
-        }, 
-    "keywords": [], 
-    "author": "Keshav", 
-    "license": "ISC", 
-    "dependencies": { 
-        "bcrypt": "^5.1.0", 
-        "body-parser": "^1.20.1", 
-        "express": "^4.18.2", 
-        "jsonwebtoken": "^9.0.0" ,
+    "main": "server.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node server.js",
+        "develop": "nodemon server.js"
+    },
+    "keywords": [],
+    "author": "Keshav",
+    "license": "ISC",
+    "dependencies": {
+        "bcrypt": "^5.1.0",
+        "body-parser": "^1.20.1",
+        "bson": "^5.0.1",
+        "express": "^4.18.2",
+        "jsonwebtoken": "^9.0.0",
         "mongoose": "^7.0.0"
-        }, 
-    "devDependencies": { 
-        "nodemon": "^2.0.20" 
-        }
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.20"
+    }
 }
