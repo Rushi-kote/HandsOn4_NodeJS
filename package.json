@@ -9,7 +9,7 @@
         "develop": "nodemon server.js"
     },
     "keywords": [],
-    "author": "Keshav",
+    "author": "Rushikesh",
     "license": "ISC",
     "dependencies": {
         "bcrypt": "^5.1.0",
